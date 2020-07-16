@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <app.frantic.swipeswitch.SwipeSwitch
+            android:id="@+id/switchbtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:orientation="LANDSCAPE"
+            app:actionOffDrawable="@drawable/ic_lock_open_black_24dp"
+            app:actionOnDrawable="@drawable/ic_lock_outline_black_24dp"
+            app:baseColor="#00B0F2"
+            />
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe to Unlock"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_alignStart="@id/switchbtn"
+            android:layout_alignBottom="@id/switchbtn"
+            android:layout_alignRight="@id/switchbtn"
+            android:layout_alignTop="@id/switchbtn"/>
+    </RelativeLayout>
+</LinearLayout>
