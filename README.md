@@ -3,7 +3,7 @@
 Toggle the switch with swipe
 
 <div>
-  <img src="https://github.com/kapilmhr/SwipeSwitch/blob/master/swipe.gif" width="400" hspace="20" />
+  <img src="https://github.com/kapilmhr/SwipeSwitch/blob/master/swipe.gif" width="240" hspace="20" />
   <br/>
 </div>
 
